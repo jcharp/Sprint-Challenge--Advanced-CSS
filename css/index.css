@@ -161,7 +161,6 @@ p {
   margin: 0 auto;
 }
 .top {
-  border: 1px solid black;
   padding: 10px;
 }
 .top h1 {
@@ -240,4 +239,22 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.container {
+  margin-left: 18%;
+}
+.btn {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  width: 20%;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.btn:hover {
+  background-color: aqua;
+  color: black;
 }
