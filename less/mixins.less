@@ -1,1 +1,17 @@
 // Mixins Here
+
+.flexc{
+    display: flex;
+    justify-content: center;
+}
+
+.flexw{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
